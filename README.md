@@ -16,6 +16,9 @@
 - This is for the color picker.
 - library : react-copy-to-clipboard || https://www.npmjs.com/package/react-copy-to-clipboard
 - npm i react-copy-to-clipboard
+- To work dynamic with color we're using useState
+- ChromeColor showed in the browser. with calling ChromeColor color={}. It came from library.
+- 
  
 
 ## Learning purpose

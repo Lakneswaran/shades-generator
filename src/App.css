@@ -7,8 +7,13 @@
 }
 
 .heading {
-  color: brown;
+  
   cursor: pointer;
   margin: 0;
   padding-top: 1rem;
+}
+
+.color-picker {
+  position: absolute;
+  right: 25rem;
 }

@@ -18,7 +18,10 @@
 - npm i react-copy-to-clipboard
 - To work dynamic with color we're using useState
 - ChromeColor showed in the browser. with calling ChromeColor color={}. It came from library.
-- 
+
+![Probs classcomp](public/asset/color-chrome.png)
+
+-
  
 
 ## Learning purpose
@@ -26,10 +29,6 @@
 ### JS Cookies vs local storage vs Session
 
 
-
-
-
-![Probs classcomp](public/asset/Storage_working.PNG)
 
 
 

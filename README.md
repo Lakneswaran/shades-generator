@@ -1,4 +1,4 @@
-# TODO-LIST with reactjs & Tailwind
+# TODO-LIST with reactjs & CSS & Tailwind
 
 ## Explanation to use
 

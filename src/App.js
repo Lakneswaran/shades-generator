@@ -8,7 +8,8 @@ import {CopyToClipboard } from 'react-copy-to-clipboard';
 function App() {
   return (
    <>
-    <div>
+    <div className='wrapper'>
+      <h1 class="text-center ... heading">SHADES GENERATOR</h1>
       
     </div>
    </>

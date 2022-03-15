@@ -8,6 +8,8 @@ import Values from 'values.js';
 function App() {
   const [color, setColor] = useState('#ccc');
   const [shades, setShades] = useState([]);
+  const [showPicker, setShowPicker] = useState(false);
+
   const onChange = (color) => {
     setColor(color.hex);
     const colorValues = new Values(color.hex);
@@ -19,15 +21,18 @@ function App() {
   return (
    <>
     <div className='wrapper'>
-      <h1 className="text-center ... heading">SHADES GENERATOR ({color})</h1>
+      <h1 className="text-center ... heading" >SHADES GENERATOR <span onClick={() => setShowPicker(!showPicker)}>
+      ({color})</span></h1>
       <div className='color-picker'>
-        <ChromeColor color={color} onChange={onChange}/>
+        {
+        showPicker && <ChromeColor color={color} onChange={onChange}/>
+        }
       </div>
         <div className="shades">
           <ul className='shades-list'>
             {
                shades.map(shade =>{
-                 return ( <CopyToClipboard text={'#' + shade.hex}>
+                 return ( <CopyToClipboard className='color-code' text={'#' + shade.hex}>
                  <li style={{ backgroundColor: '#'+shade.hex, color: shade.type === 'shade' ? 'white': 'black' }}>
                    #{shade.hex}</li>
                  </CopyToClipboard>)

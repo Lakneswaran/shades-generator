@@ -47,7 +47,9 @@
 - With the help of ReactCopyToClipboard library we can copy the color code while clicking on the color box.
 - ex: #675555 by click and paste
 - Using a ternary operator for color change of shade type
+- showPicker state using for disable and able the chromeColor
 - 
+
 
 
  

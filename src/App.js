@@ -27,7 +27,9 @@ function App() {
           <ul className='shades-list'>
             {
                shades.map(shade =>{
-                 return (<li style={{ backgroundColor: '#'+shade.hex }}>{shade.hex}</li>)
+                 return ( <CopyToClipboard text={'#' + shade.hex}>
+                 <li style={{ backgroundColor: '#'+shade.hex }}>#{shade.hex}</li>
+                 </CopyToClipboard>)
                })
             }
           </ul>

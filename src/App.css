@@ -17,3 +17,16 @@
   position: absolute;
   right: 25rem;
 }
+
+.shades {
+  height: calc(100% - 5rem);
+}
+
+.shades-list {
+  list-style-type: none;
+  padding: 0;
+  height: 100%;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+}

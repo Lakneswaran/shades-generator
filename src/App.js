@@ -28,7 +28,8 @@ function App() {
             {
                shades.map(shade =>{
                  return ( <CopyToClipboard text={'#' + shade.hex}>
-                 <li style={{ backgroundColor: '#'+shade.hex }}>#{shade.hex}</li>
+                 <li style={{ backgroundColor: '#'+shade.hex, color: shade.type === 'shade' ? 'white': 'black' }}>
+                   #{shade.hex}</li>
                  </CopyToClipboard>)
                })
             }

@@ -36,6 +36,10 @@
 - newColor.pop using to remove the last element of the array.
 - to use on the grid layers 20 would be nice to divide by 4 = 5 in a row.
 - That 20 shades applied in setShades.
+- In the shades-list we're mapping each values of the shades, returning a li
+
+![Probs classcomp](public/asset/array20_li.png)
+
 - 
 
  

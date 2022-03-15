@@ -16,8 +16,11 @@ function App() {
     const newColors = colorValues.all(10);
     newColors.pop();
     setShades(newColors)
-
   }
+
+  useEffect(() => {
+    onChange({hex: "#ccc" })
+  }, [])
   return (
    <>
     <div className='wrapper'>

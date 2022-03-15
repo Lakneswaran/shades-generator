@@ -48,8 +48,8 @@
 - ex: #675555 by click and paste
 - Using a ternary operator for color change of shade type
 - showPicker state using for disable and able the chromeColor
-- 
-
+- Initial stage of page browsing there is no color loaded => useEffect
+- we passed #ccc as default bg.
 
 
  

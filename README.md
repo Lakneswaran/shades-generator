@@ -2,6 +2,12 @@
 
 ## Explanation to use
 
+- Shades generator have 20 shades of default value of #ccc.
+- If you want to generate different colors shades.
+- Click on the SHADES GENERATOR (#ccc) -> to open color picker. 
+- Then choose your color. The shades will change up to the color you have chosen.
+- if you click on the #color on the header. it will hide the color picker.
+- When you click on the different colors and it will copy the color type in hex.
 
 
 ## Explanation of code
@@ -51,13 +57,14 @@
 - Initial stage of page browsing there is no color loaded => useEffect
 - we passed #ccc as default bg.
 
+![Probs classcomp](public/asset/initial.PNG)
+
 
  
 
 ## Learning purpose
 
-### JS Cookies vs local storage vs Session
-
+- using different libraries. 
 
 
 

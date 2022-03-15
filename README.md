@@ -21,7 +21,23 @@
 
 ![Probs classcomp](public/asset/color-chrome.png)
 
--
+- We are trigger a method while triggering the onChange event in ChromeColor.
+
+![Probs classcomp](public/asset/setcolor.png)
+
+- With this color we're creating different type of shades. with help of Values library.
+- We put that color in array.
+- new Values(color.hex) => we can access different type of functions.
+- colorValues.all => it's increase the weight of the color we're passing. 
+- Starting: white and ending: black and in between different shads of the chosen color.
+
+![Probs classcomp](public/asset/colors21.PNG)
+
+- newColor.pop using to remove the last element of the array.
+- to use on the grid layers 20 would be nice to divide by 4 = 5 in a row.
+- That 20 shades applied in setShades.
+- 
+
  
 
 ## Learning purpose
